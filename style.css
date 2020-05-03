@@ -365,7 +365,7 @@ font-size: 3rem;
     justify-content: space-around;
     font-family: 'Cantata One', serif;  
 }
-.le_chic .titre{
+.le_chic .titre h2{
     background: -webkit-gradient(linear, left top, right top, from(#e38a12),color-stop(50%, #be747a), to(#8f5aff));
             background: -o-linear-gradient(left, #e38a12 0%,#be747a 50%, #8f5aff 100%);
             background: linear-gradient(to right, #e38a12 0%,#be747a 50%, #8f5aff 100%);
@@ -374,7 +374,6 @@ font-size: 3rem;
     -webkit-text-fill-color: transparent;
     color: transparent;
     font-size: 1.4rem;
-    
 }
 .le_chic .entree{
     color: #e38913;
@@ -445,7 +444,7 @@ font-size: 3rem;
     justify-content: space-around;
     font-family: 'Kalam', serif;  
 }
-.le_delice .titre{
+.le_delice .titre h2{
     font-family: 'Dancing Script', cursive;
     font-weight: lighter;
     background: -webkit-gradient(linear, left top, right top, from(#0228dd), to(#0889fb));
@@ -488,7 +487,7 @@ font-size: 3rem;
     justify-content: space-around;
     font-family: 'Kalam', cursive;
 }
-.la_palette .titre{
+.la_palette .titre h2{
     font-family: 'Kaushan Script', cursive;
     font-weight: lighter;
     background: linear-gradient(to right, #41963c 0%,#90d867 50%, #beff7f 100%);
