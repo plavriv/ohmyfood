@@ -314,9 +314,13 @@ li .prix{
     font-family: 'Paprika', cursive;  
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(#f6916a),color-stop(0.2rem, #f6916a), color-stop(0.6rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, #f6916a 0%,#f6916a 0.2rem, transparent 0.6rem) no-repeat;
     background:linear-gradient(to top, #f6916a 0%,#f6916a 0.2rem, transparent 0.6rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out; 
 }
 .souligne:hover{
@@ -373,7 +377,6 @@ font-size: 3rem;
 	        background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    font-size: 1.4rem;
 }
 .le_chic .entree{
     color: #e38913;
@@ -393,9 +396,13 @@ font-size: 3rem;
     color: inherit;
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(#e38913),color-stop(0.2rem, #e38913), color-stop(0.5rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, #e38913 0%,#e38913 0.2rem, transparent 0.5rem) no-repeat;
     background:linear-gradient(to top, #e38913 0%,#e38913 0.2rem, transparent 0.5rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out; 
 }
 .le_chic .souligne1{
@@ -404,9 +411,13 @@ font-size: 3rem;
     color: inherit;
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(#a56799),color-stop(0.2rem, #a56799), color-stop(0.5rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, #a56799 0%,#a56799 0.2rem, transparent 0.5rem) no-repeat;
     background:linear-gradient(to top, #a56799 0%,#a56799 0.2rem, transparent 0.5rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out;
 }
 .le_chic .souligne2{
@@ -415,9 +426,13 @@ font-size: 3rem;
     color: inherit;
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(#6e4ccc),color-stop(0.2rem, #6e4ccc), color-stop(0.5rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, #6e4ccc 0%,#6e4ccc 0.2rem, transparent 0.5rem) no-repeat;
     background:linear-gradient(to top, #6e4ccc 0%,#6e4ccc 0.2rem, transparent 0.5rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out;  
 }
 .souligne:hover,.souligne1:hover,.souligne2:hover{
@@ -453,7 +468,6 @@ font-size: 3rem;
 	-webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.5rem;
 }
 .le_delice .souligne{
     display: inline;
@@ -461,9 +475,13 @@ font-size: 3rem;
     color: black;
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(black),color-stop(0.2rem, black), color-stop(0.5rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, black 0%,black 0.2rem, transparent 0.5rem) no-repeat;
     background:linear-gradient(to top, black 0%,black 0.2rem, transparent 0.5rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out; 
 }
 .souligne:hover{
@@ -490,10 +508,11 @@ font-size: 3rem;
 .la_palette .titre h2{
     font-family: 'Kaushan Script', cursive;
     font-weight: lighter;
+    background: -webkit-gradient(linear, left top, right top, from(#41963c),color-stop(50%, #90d867), to(#beff7f));
+    background: -o-linear-gradient(left, #41963c 0%,#90d867 50%, #beff7f 100%);
     background: linear-gradient(to right, #41963c 0%,#90d867 50%, #beff7f 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.6em;
 }
 .la_palette .souligne{
     display: inline;
@@ -501,9 +520,13 @@ font-size: 3rem;
     color: black;
     cursor: pointer;
     border:none;
+    background:-webkit-gradient(linear, left bottom, left top, from(#90d867),color-stop(0.2rem, #90d867), color-stop(0.5rem, transparent)) no-repeat;
+    background:-o-linear-gradient(bottom, #90d867 0%,#90d867 0.2rem, transparent 0.5rem) no-repeat;
     background:linear-gradient(to top, #90d867 0%,#90d867 0.2rem, transparent 0.5rem) no-repeat;
     background-size:0 100%;
     border-radius: 0.5rem;
+    -webkit-transition: background-size .5s ease-in-out;
+    -o-transition: background-size .5s ease-in-out;
     transition: background-size .5s ease-in-out; 
 }
 .souligne:hover{
@@ -515,7 +538,10 @@ font-size: 3rem;
         font-size: 70%;
     }
     main{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .menu{
         margin: 1rem auto;
@@ -559,7 +585,9 @@ font-size: 3rem;
     }
     .la-note, .le_delice, .le_chic, .la_palette{
         height: auto;
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 }
 
