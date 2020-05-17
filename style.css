@@ -91,7 +91,7 @@ main{
     background-image: -webkit-gradient(linear, left top, right top, from(#f15861), color-stop(#f15861), color-stop(#f78f6a), to(#f78f6a));
     background-image: -o-linear-gradient(left, #f15861, #f15861, #f78f6a, #f78f6a);
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-    color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;  
 }
 .menu2 h2{
@@ -101,7 +101,7 @@ main{
     background: -o-linear-gradient(top, #9865fb, #e1a162);
     background: linear-gradient(180deg, #9865fb, #e1a162);
 	-webkit-background-clip: text;
-	color: transparent;
+	-webkit-text-fill-color: transparent;
 }
 .menu2 h3{
     font-size: 3rem;
@@ -117,7 +117,7 @@ main{
     background: -o-linear-gradient(top, #148cfb, #133fe1);
     background: linear-gradient(180deg, #148cfb, #133fe1);
 	-webkit-background-clip: text;
-	color: transparent;
+	-webkit-text-fill-color: transparent;
 }
 .menu3 h3{
     font-family: 'Kalam', cursive;
@@ -132,7 +132,7 @@ main{
     background: -o-linear-gradient(top, #c5ff8d, #489945);
     background: linear-gradient(180deg, #c5ff8d, #489945);
 	-webkit-background-clip: text;
-	color: transparent;
+	-webkit-text-fill-color: transparent;
 }
 .menu4 h3{
     font-family: 'Kalam', cursive;
@@ -305,7 +305,7 @@ li .prix{
    background-image: -webkit-gradient(linear, left top, right top, from(#f15861), color-stop(#f15861), color-stop(#f78f6a), to(#f78f6a));
     background-image: -o-linear-gradient(left, #f15861, #f15861, #f78f6a, #f78f6a);
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-    color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
@@ -340,7 +340,7 @@ font-size: 3rem;
     background-image: -webkit-gradient(linear, left top, right top, from(#f15861), color-stop(#f15861), color-stop(#f78f6a), to(#f78f6a));
     background-image: -o-linear-gradient(left, #f15861, #f15861, #f78f6a, #f78f6a);
     background-image: linear-gradient(to right, #f15861, #f15861, #f78f6a, #f78f6a);
-    color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .pied h2{
@@ -376,7 +376,7 @@ font-size: 3rem;
 	-webkit-background-clip: text;
 	        background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 .le_chic .entree{
     color: #e38913;
