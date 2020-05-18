@@ -374,8 +374,6 @@ font-size: 3rem;
             background: -o-linear-gradient(left, #e38a12 0%,#be747a 50%, #8f5aff 100%);
             background: linear-gradient(to right, #e38a12 0%,#be747a 50%, #8f5aff 100%);
 	-webkit-background-clip: text;
-	        background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
@@ -464,7 +462,6 @@ font-size: 3rem;
     background: -o-linear-gradient(left, #0228dd 0%, #0889fb 100%);
     background: linear-gradient(to right, #0228dd 0%, #0889fb 100%);
 	-webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .le_delice .souligne{
