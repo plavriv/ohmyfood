@@ -237,7 +237,7 @@ footer a:hover{
            transform: translate3d(4px, 0, 0);
 }
 }
-/*Regles pour les petits ecran*/
+
 
 /*Regles general pour les pages*/
 .titre h2{
@@ -533,6 +533,7 @@ font-size: 3rem;
     background-size: 100% 100%;
 }
 
+/*Regles pour les petits ecran*/
 @media screen and (max-width: 767px){
     :root{
         font-size: 70%;
