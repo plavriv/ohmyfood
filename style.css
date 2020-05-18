@@ -585,6 +585,24 @@ hr {
     img{
         height: 30%;
     }
+    .le_chic li{
+        font-size:110%;
+    }
+     .le_delice li{
+        font-size: 130%;
+    }
+    .le_delice h2{
+        font-size:420%;
+    }
+    .le_delice h3{
+        font-size: 180%;
+    }
+    .la_palette h3{
+        font-size: 210%;
+    }
+    .la_palette li{
+        font-size: 120%;
+    }
 }
 @media screen and (max-width: 768px){
     :root{
@@ -617,9 +635,6 @@ hr {
     header, footer{
         width: 100%;
     }
-    /*.hide{
-        display: none;
-    }*/
     
     .titre h2{
         font-size: 250%;
@@ -648,10 +663,70 @@ hr {
     }
     
 }
-
+@media screen and (max-width: 414px){
+     .le_delice li{
+        font-size: 120%;
+    }
+    .le_delice h2{
+        font-size:420%;
+    }
+    .le_delice h3{
+        font-size: 160%;
+    }
+    .la_palette h2{
+        font-size: 480%;
+    }
+    .la_palette h3{
+        font-size: 180%;
+    }
+    .la_palette li{
+        font-size: 115%;
+    }
+}
+@media screen and (max-width: 375px){
+    .la-note li{
+        font-size: 94%;
+    }
+    .le_delice li{
+        font-size: 110%;
+    }
+    .le_delice h2{
+        font-size:420%;
+    }
+    .le_delice h3{
+        font-size: 150%;
+    }
+    .la_palette h2{
+        font-size: 380%;
+    }
+    .la_palette h3{
+        font-size: 170%;
+    }
+    .la_palette li{
+        font-size: 100%;
+    }
+}
 @media screen and (max-width: 321px){
     :root{
         font-size: 50%;
+    }
+    .le_delice li{
+        font-size: 130%;
+    }
+    .le_delice h2{
+        font-size:420%;
+    }
+    .le_delice h3{
+        font-size: 170%;
+    }
+    .la_palette h2{
+        font-size: 380%;
+    }
+    .la_palette h3{
+        font-size: 190%;
+    }
+    .la_palette li{
+        font-size: 120%;
     }
 }
 
